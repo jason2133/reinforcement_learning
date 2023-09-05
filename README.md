@@ -5,4 +5,4 @@
 
 |Chapter|Contents|
 |:------:|:-----:|
-|1|Reinforcement Learning|
+|1|Introduction to Reinforcement Learning|
