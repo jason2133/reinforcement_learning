@@ -6,3 +6,4 @@
 |Chapter|Contents|
 |:------:|:-----:|
 |1|Introduction to Reinforcement Learning|
+|2|Introduction to ML, DL, and RL|
