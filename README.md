@@ -6,7 +6,7 @@
 - The folders which start from 'ch' is based on the Book 'Reinforcement Learning using Stable Baselines'.
 
 ## Class Course
-|Chapter|Contents|
+|Number|Contents|
 |:------:|:-----:|
 |1|Introduction to Reinforcement Learning|
 |2|Introduction to ML, DL, and RL|
