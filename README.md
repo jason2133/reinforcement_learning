@@ -3,6 +3,7 @@
 - Reinforcement Learning
 - Lecture by Prof. Hwangnam Kim, School of Eletrical Engineering, Korea University
 - My Reference Book : [Reinfocement Learning using Stable Baselines (Written by Prof. Yousung Park in Department of Statistics at Korea University)](https://product.kyobobook.co.kr/detail/S000001762550)
+- The folders which start from 'ch' is based on the Book 'Reinforcement Learning using Stable Baselines'.
 
 ## Class Course
 |Chapter|Contents|
