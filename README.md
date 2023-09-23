@@ -18,3 +18,13 @@
 |2|Bellman Equation and Dynamic Programming|
 |3|OpenAI Gym|
 |4|Monte-Carlo Estimation|
+|5|TD and Action|
+|6|Deep Q Networks|
+|7|Policy-based Reinforcement Learning|
+|8|Actor-Critic Reinforcement Learning|
+|9|Stable Baselines|
+|10|TRPO, PPO, ACKTR|
+|11|DDPG, TD3, SAC|
+|12|Imitation Learning and Inverse Reinforcement Learning|
+|13|Probability Distribution-based Reinforcement Learning|
+|Appendix|Reinforcement Learning Algorithm|
