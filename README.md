@@ -2,7 +2,7 @@
 - Korea Univ. (Graduate School) / Network Simulation / ECE645 / 2023 Fall
 - Reinforcement Learning
 - Lecture by Prof. Hwangnam Kim, School of Eletrical Engineering, Korea University
-- The folders which start from 'ch' is based on my reference Book [Reinforcement Learning using Stable Baselines](https://product.kyobobook.co.kr/detail/S000001762550), which was written by Prof. Yousung Park in Department of Statistics at Korea University.
+- The folders which start from 'ch' is based on my Reference Book [Reinforcement Learning using Stable Baselines](https://product.kyobobook.co.kr/detail/S000001762550), which was written by Prof. Yousung Park in Department of Statistics at Korea University.
 
 ## Class Course
 |Number|Contents|
