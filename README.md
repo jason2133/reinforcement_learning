@@ -5,7 +5,7 @@
 - The folders which start from 'ch' is based on my Reference Book [Reinforcement Learning using Stable Baselines](https://product.kyobobook.co.kr/detail/S000001762550), which was written by Prof. Yousung Park in Department of Statistics at Korea University.
 
 ## Class Course
-|Number|Contents|
+|Chapter|Contents|
 |:------:|:-----:|
 |1|Introduction to Reinforcement Learning|
 |2|Introduction to ML, DL, and RL|
@@ -27,3 +27,26 @@
 |12|Imitation Learning and Inverse Reinforcement Learning|
 |13|Probability Distribution-based Reinforcement Learning|
 |Appendix|Reinforcement Learning Algorithm|
+
+## List of Reinforcement Algorithm
+|Number|Contents|
+|:------:|:-----:|
+|1|Monte-Carlo Policy Iteration|
+|2|Off-Policy Monte-Carlo Algorithm|
+|3|SARSA Algorithm|
+|4|Q-Learning Algorithm|
+|5|DQN Algorithm|
+|6|REINFORCE Algorithm|
+|7|Policy Gradient with Baseline Algorithm|
+|8|A2C Algorithm|
+|9|TRPO Algorithm|
+|10|PPO-clipped Algorithm|
+|11|PPO-penalty Algorithm|
+|12|DDPG Algorithm|
+|13|TD3 Algorithm|
+|14|SAC Algorithm|
+|15|DAgger Algorithm|
+|16|DQfD Algorithm|
+|17|IRL Algorithm|
+|18|Categorical DQN Algorithm|
+|19|D4PG Algorithm|
