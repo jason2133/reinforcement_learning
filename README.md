@@ -11,6 +11,7 @@
 |:------:|:-----:|
 |1|Introduction to Reinforcement Learning|
 |2|Introduction to ML, DL, and RL|
+|3|Mathematics for Reinforcement Learning|
 
 ## Reinforcement Learning using Stable Baselines
 |Chapter|Contents|
