@@ -41,7 +41,7 @@
 |13|Probability Distribution-based Reinforcement Learning|
 |Appendix|Reinforcement Learning Algorithm|
 
-## List of Reinforcement Algorithms
+## List of Reinforcement Learning Algorithms
 |Number|Contents|
 |:------:|:-----:|
 |1|Monte-Carlo Policy Iteration|
