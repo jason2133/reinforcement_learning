@@ -7,10 +7,21 @@
 - The folders which start from 'meta_rl' is based on my Reference Book [Meta-Learning for Everyone](https://github.com/dongminlee94/meta-learning-for-everyone).
 
 ## Class Course
-|Chapter|Contents|
-|:------:|:-----:|
-|1|Introduction to Reinforcement Learning|
-|2|Introduction to ML, DL, and RL|
+|Chapter|Contents|Details|
+|:------:|:-----:|:-----:|
+|1|Introduction to Reinforcement Learning|What is Reinforcement Learning?|
+|2|Introduction to ML, DL, and RL|ML vs DL|
+|||Convolutional Network|
+|||Recurrent Neural Network|
+|||Reinforcement Learning|
+|3|Mathematics for Reinforcement Learning|Random Process|
+|||Markov Process|
+|||Markov Reward Process & Markov Decision Process|
+|||Optimization|
+|||Gradient Descent Algorithms|
+|||Optimization Algorithms for Training Deep Neural Networks|
+|||Information Theory|
+|||Parameter Estimation Concept|
 
 ## Reinforcement Learning using Stable Baselines
 |Chapter|Contents|
@@ -30,7 +41,7 @@
 |13|Probability Distribution-based Reinforcement Learning|
 |Appendix|Reinforcement Learning Algorithm|
 
-## List of Reinforcement Algorithm
+## List of Reinforcement Learning Algorithms
 |Number|Contents|
 |:------:|:-----:|
 |1|Monte-Carlo Policy Iteration|
