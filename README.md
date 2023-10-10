@@ -22,6 +22,9 @@
 |||Optimization Algorithms for Training Deep Neural Networks|
 |||Information Theory|
 |||Parameter Estimation Concept|
+|4|Reinforcement Learning Concept|Reinforcement Learning Concept|
+|||Reinforcement Learning Components|
+|||Long-Term Reward and Value Function|
 
 ## Reinforcement Learning using Stable Baselines
 |Chapter|Contents|
