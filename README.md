@@ -25,6 +25,11 @@
 |4|Reinforcement Learning Concept|Reinforcement Learning Concept|
 |||Reinforcement Learning Components|
 |||Long-Term Reward and Value Function|
+|5|MDP and DP|Markov Decision Process|
+|||Dynamic Programming|
+|||Policy Evaluation|
+|||Optimal Policies Revisited|
+|||Finding Optimal Policies: Dynamic Programming|
 
 ## Reinforcement Learning using Stable Baselines
 |Chapter|Contents|
