@@ -30,6 +30,16 @@
 |||Policy Evaluation|
 |||Optimal Policies Revisited|
 |||Finding Optimal Policies: Dynamic Programming|
+|6|Model Free Algorithm|Model-Free RL|
+|||Monte-Carlo Method Prediction and Control|
+|||Monte-Carlo Policy Control|
+|||Exploration More|
+|||Temporal Difference for Prediction|
+|||Temporal Differences Extended: N-Step Prediction|
+|||On-Policy Control: SARSA|
+|||Off-Policy Learning: Q-Learning|
+|||Comparison: SARSA and Q-Learning|
+|||Off-Policy Learning with Importance Sampling|
 
 ## Reinforcement Learning using Stable Baselines
 |Chapter|Contents|
