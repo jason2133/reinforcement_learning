@@ -40,6 +40,12 @@
 |||Off-Policy Learning: Q-Learning|
 |||Comparison: SARSA and Q-Learning|
 |||Off-Policy Learning with Importance Sampling|
+|7|Function Approximation|Function Approximation|
+|||Incremental Methods|
+|||Coarse Coding|
+|||Prediction with Value Function Approximation|
+|||Control with Value Function Approximation|
+|||Batch Methods|
 
 ## Reinforcement Learning using Stable Baselines
 |Chapter|Contents|
