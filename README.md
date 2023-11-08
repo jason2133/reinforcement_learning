@@ -47,6 +47,13 @@
 |||Control with Value Function Approximation|
 |||Batch Methods|
 
+## Reinforcement Learning - Assignment
+|Chapter|Contents|
+|:------:|:-----:|
+|1|Value Iteration and Policy Iteration Coding using OpenAI Gym - FrozenLake|
+|2|Monte Carlo Prediction and Control Coding|
+|3|SARSA and Q-Learning Control Coding|
+
 ## Reinforcement Learning using Stable Baselines
 |Chapter|Contents|
 |:------:|:-----:|
