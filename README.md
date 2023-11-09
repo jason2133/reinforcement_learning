@@ -4,7 +4,6 @@
 - Lecture by Prof. Hwangnam Kim, School of Eletrical Engineering, Korea University
 - The folders which start from 'assignment' is based on my assignment in this course.
 - The folders which start from 'ch' is based on my Reference Book [Reinforcement Learning using Stable Baselines](https://product.kyobobook.co.kr/detail/S000001762550), which was written by Prof. Yousung Park in Department of Statistics at Korea University.
-- The folders which start from 'meta_rl' is based on my Reference Book [Meta-Learning for Everyone](https://github.com/dongminlee94/meta-learning-for-everyone).
 
 ## Class Course
 |Chapter|Contents|Details|
