@@ -38,15 +38,19 @@ def policy_evaluation(P, nS, nA, policy, gamma=0.9, error=1e-3):
     # YOUR IMPLEMENTATION HERE #
 
     while True:
-        new_v_function = np.copy(value_function)
-        for s, a in enumerate(policy):
-            prob, next_s, reward, terminal = P[s][a][0]
-            new_v_function[s] = reward + gamma * prob * value_function[next_s]
-        value_change = np.sum(np.abs(value_function - new_v_function))
-        value_function = new_v_function
-        if value_change < error:
+        delta = 0
+        for state in range(nS):
+            old_value = value_function[state]
+            action = policy[state]
+            value_function[state] = 0
+            for i in range(len(P[state][action])):
+                prob, nextstate, reward, terminal = P[state][action][i]
+                next_value = prob * (reward + gamma * value_function[nextstate])
+                value_function[state] = value_function[state] + next_value
+            delta = max(delta, abs(old_value - value_function[state]))
+        if delta < error:
             break
-    
+
     ############################
     return value_function
 
@@ -58,12 +62,18 @@ def policy_improvement(env, P, nS, nA, value_from_policy, policy, gamma=0.9):
     ############################
     # YOUR IMPLEMENTATION HERE #
 
-    for s in range(nS):
-        action_reward = []
-        for a in range(nA):
-            prob, next_s, reward, terminal = P[s][a][0]
-            action_reward.append(reward + gamma * prob * value_from_policy[next_s])
-        new_policy[s] = np.argmax(action_reward)
+    for state in range(nS):
+        best_action = 0
+        best_value= -10000
+        for action in range(nA):
+            value = 0
+            for i in range(len(P[state][action])):
+                prob, nextstate, reward, terminal = P[state][action][i]
+                value += prob * (reward + gamma * value_from_policy[nextstate])
+            if value > best_value:
+                best_value = value
+                best_action = action
+        new_policy[state] = best_action
     
     ############################
     return new_policy
@@ -77,13 +87,14 @@ def policy_iteration(env, P, nS, nA, gamma=0.9, error=1e-5):
     ############################
     # YOUR IMPLEMENTATION HERE #
 
-    while True:
-        value_function = policy_evaluation(P, policy, value_function, gamma, error)
-        new_policy = policy_improvement(P, nS, nA, value_function, policy, gamma)
-        policy_change = (new_policy != policy).sum()
-        policy = new_policy
-        if policy_change == 0:
-            break
+    prev_policy = None
+    i=0
+    while i==0 or np.linalg.norm(policy - prev_policy,1)> 0:
+        i+=1
+        prev_policy = policy
+        value_function = policy_evaluation(P, nS, nA, prev_policy, gamma, error)
+        policy = policy_improvement(env, P, nS, nA, value_function, prev_policy, gamma)
+
     ############################
     return value_function, policy
 
@@ -122,7 +133,7 @@ if __name__ == "__main__":
     env.nA = 4
 
     print("\n" + "-" * 25 + "\nPolicy Iteration\n" + "-" * 25)
-    V_pi, p_pi = policy_iteration(env, env.P, env.nS, env.nA, gamma=0.8, error=1e-5)
+    V_pi, p_pi = policy_iteration(env, env.P, env.nS, env.nA, gamma=0.8, error=1e-10)
 
     render_single(env, p_pi, 100)
 

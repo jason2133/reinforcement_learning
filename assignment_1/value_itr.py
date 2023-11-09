@@ -115,7 +115,7 @@ if __name__ == "__main__":
     env.nA = 4
 
     print("\n" + "-" * 25 + "\nValue Iteration\n" + "-" * 25)
-    V_vi, p_vi = value_iteration(env.P, env.nS, env.nA, gamma=0.8, error=1e-5)
+    V_vi, p_vi = value_iteration(env.P, env.nS, env.nA, gamma=0.8, error=1e-10)
 
     render_single(env, p_vi, 100)
 
