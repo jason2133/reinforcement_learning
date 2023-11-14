@@ -45,6 +45,21 @@
 |||Prediction with Value Function Approximation|
 |||Control with Value Function Approximation|
 |||Batch Methods|
+|8|Extension of Q-Learning|Key Variants and Extensions of Q-Learning|
+|||Fitted Q-Learning|
+|||Deep Q-Network|
+|||Double Q-Learning|
+|||Double DQN|
+|||Prioritized Experience Replay|
+|||Dueling Network Architectures|
+|||N-Step Q-Learning|
+|||Distributional vs. Distributed Q-Learning|
+|||Noisy Nets|
+|||Rainbow Q-Learning: Combining Improvements in Deep Reinforcement Learning|
+|||Asynchronous Q-Learning|
+|||Optimistic Q-Learning|
+|||Faster Deep Reinforcement Learning by Optimality Tightening|
+|||Practical Skills|
 
 ## Reinforcement Learning - Assignment
 |Chapter|Contents|
