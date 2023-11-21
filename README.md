@@ -60,7 +60,13 @@
 |||Optimistic Q-Learning|
 |||Faster Deep Reinforcement Learning by Optimality Tightening|
 |||Practical Skills|
-|8|Policy Based Algorithm||
+|9|Policy Based Algorithm|Policy Gradient|
+|||Policy Optimization|
+|||Policy Gradient|
+|||A Structure for Reinforce and Actor-Critic|
+|||Reinforce|
+|||Actor Critic|
+|||Summary|
 
 ## Reinforcement Learning - Assignment
 |Chapter|Contents|
