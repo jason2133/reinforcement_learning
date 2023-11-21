@@ -60,6 +60,7 @@
 |||Optimistic Q-Learning|
 |||Faster Deep Reinforcement Learning by Optimality Tightening|
 |||Practical Skills|
+|8|Policy Based Algorithm||
 
 ## Reinforcement Learning - Assignment
 |Chapter|Contents|
