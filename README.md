@@ -67,6 +67,9 @@
 |||Reinforce|
 |||Actor Critic|
 |||Summary|
+|10|Model-Based Reinforcement Learning|Model-Based Reinforcement Learning|
+|||Model-free and model-based approach: Integrated Architecture|
+|||Simulation for Planning|
 
 ## Reinforcement Learning - Assignment
 |Chapter|Contents|
