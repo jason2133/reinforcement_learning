@@ -70,6 +70,11 @@
 |10|Model-Based Reinforcement Learning|Model-Based Reinforcement Learning|
 |||Model-free and model-based approach: Integrated Architecture|
 |||Simulation for Planning|
+|11|Case Studies in Policy Based Algorithm|Policy Gradient Theorem Revisited|
+|||A2C|
+|||A3C|
+|||PPO|
+|||DDPG|
 
 ## Reinforcement Learning - Assignment
 |Chapter|Contents|
